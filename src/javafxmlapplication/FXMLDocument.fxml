@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox alignment="CENTER" prefHeight="321.0" prefWidth="373.0" spacing="12.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxmlapplication.FXMLDocumentController">
+   <children>
+        <Button fx:id="buttonClick" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleButtonAction" prefWidth="80.0" text="Click" />
+        <Label fx:id="labelMessage" lineSpacing="4.0" minHeight="-Infinity" minWidth="-Infinity" prefWidth="150.0" textAlignment="CENTER" wrapText="true" />
+   </children>
+</VBox>
